@@ -1,3 +1,8 @@
+#Live weather app
+#Hlanhla Hlungwane 
+#Guided Project
+#03 February 2025
+
 import sys
 from urllib.error import HTTPError
 
