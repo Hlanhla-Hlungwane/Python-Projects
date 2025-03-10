@@ -1,6 +1,8 @@
+# Plotting a linegraph on python
+#By Hlanhla Hlungwane
+#10 March 2024
+
 #import the libraries
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -9,12 +11,11 @@ from matplotlib.lines import lineStyles
 
 plt.style.use('default')
 
-#import csv
-
+#import excel file
 beverages = pd.read_excel("Hot_Beverages.xlsx")
 print(beverages.head(5))
 
-# plotting
+#plotting a line graph
 
 plt.plot(beverages["Year"], beverages["Coffee"], linestyle ='solid', linewidth = 3,
          marker='>', markersize = 7, label ='coffee')
